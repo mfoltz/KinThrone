@@ -69,7 +69,7 @@ jobs:
           
       - name: Build (Release)
         run: dotnet build . --configuration Release -p:Version=${{ env.version }}
-		
+
       - name: GH Release
         uses: softprops/action-gh-release@v1
         if: github.event_name == 'workflow_dispatch'
