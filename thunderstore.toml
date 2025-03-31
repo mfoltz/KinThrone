@@ -2,6 +2,7 @@
 BepInEx-BepInExPack_V_Rising = "1.691.3"
 
 [publish]
+author_name = "Kindred"
 team_name = "Kindred"
 communities = ["v-rising"]
 repository = "https://thunderstore.io"
@@ -10,6 +11,7 @@ repository = "https://thunderstore.io"
 v-rising = ["1-0-update", "mods", "server"]
 
 [package]
+author_name = "Kindred"
 namespace = "Kindred"
 name = "KinThrone"
 versionNumber = "1.0.0"
