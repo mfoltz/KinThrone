@@ -10,7 +10,6 @@ v-rising = ["1-0-update", "mods", "server"]
 
 [package]
 namespace = "Kindred"
-author = "Kindred"
 name = "KinThrone"
 versionNumber = "1.0.0"
 description = "Send servants on missions from the Throne of Darkness!"
