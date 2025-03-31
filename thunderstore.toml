@@ -9,7 +9,7 @@ repository = "https://thunderstore.io"
 v-rising = ["1-0-update", "mods", "server"]
 
 [package]
-namespace = "KindredTeam"
+namespace = "Kindred"
 author = "Kindred"
 name = "KinThrone"
 versionNumber = "1.0.0"
