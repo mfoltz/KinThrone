@@ -12,6 +12,7 @@ v-rising = ["1-0-update", "mods", "server"]
 namespace = "Kindred"
 name = "KinThrone"
 versionNumber = "1.0.0"
+author = "Kindred"
 description = "Send servants on missions from the Throne of Darkness!"
 websiteUrl = "https://github.com/mfoltz/KinThrone"
 containsNsfwContent = false
