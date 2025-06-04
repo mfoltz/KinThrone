@@ -1,5 +1,5 @@
 # KinThrone for V Rising
-Send servants on missions in style from the Throne of Darkness. No configuration required.
+Interacting with the Throne of Darkness applies the original three relic tower buffs (Talzur, Behemoth, and Solarus) to the player. No configuration required.
 
 ---
 Thanks to the V Rising modding and server communities for ideas and requests!
