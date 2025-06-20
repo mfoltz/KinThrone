@@ -12,6 +12,7 @@ internal static class Core
     public static ManualLogSource Log => Plugin.LogInstance;
 
     public static bool _initialized;
+
     public static void Initialize()
     {
         if (_initialized) return;
@@ -21,10 +22,12 @@ internal static class Core
 
         _initialized = true;
     }
+
     static World GetServerWorld()
     {
         return World.s_AllWorlds.ToArray().FirstOrDefault(world => world.Name == "Server");
     }
+
     static void AddAncientRelicBuffs()
     {
         PrefabGUID AB_Interact_Throne_Dracula_Travel = new(559608494);

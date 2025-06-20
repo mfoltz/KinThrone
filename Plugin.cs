@@ -16,6 +16,7 @@ public class Plugin : BasePlugin
     public static ManualLogSource LogInstance => Instance.Log;
 
     public static readonly string ConfigPath = Path.Combine(Paths.ConfigPath, MyPluginInfo.PLUGIN_NAME);
+
     public override void Load()
     {
         Instance = this;
@@ -30,6 +31,7 @@ public class Plugin : BasePlugin
 
         Core.Log.LogInfo($"{MyPluginInfo.PLUGIN_NAME}[{MyPluginInfo.PLUGIN_VERSION}] loaded!");
     }
+
     public override bool Unload()
     {
         Config.Clear();
